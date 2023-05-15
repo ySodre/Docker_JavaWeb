@@ -1,0 +1,50 @@
+version: '3.9'
+services:
+
+  nginx:
+    image: nginx
+    container_name: proxy
+    networks:
+      - my-network
+    volumes:
+      - nginx-vol:/etc/nginx/
+    ports:
+      - 80:80
+
+  tomcat:
+    image: tomcat:9.0
+    container_name: mytom
+    networks:
+      - my-network
+    volumes:
+      - tom-vol:/usr/local/tomcat
+    ports:
+      - 8080:8080
+
+  database:
+    image: mysql
+    container_name: mydb 
+    networks:
+      - my-network
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - DATABASE=UserDB
+      - MYSQL_USER=admin
+      - MYSQL_PASSWORD=senha123
+      - MYSQL_ALLOW_EMPTY_PASSWORD=no
+      - MYSQL_USER_HOST='%'
+    volumes:
+      - db-vol:/etc
+      - db-vol2:/var/lib/mysql
+    ports:
+      - 3306:3306
+
+volumes:
+  tom-vol:
+  db-vol:
+  nginx-vol:
+  db-vol2:
+
+networks:
+  my-network:
+    driver: bridge

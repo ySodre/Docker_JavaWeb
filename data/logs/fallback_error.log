@@ -1,0 +1,7 @@
+2023/05/11 18:35:53 [warn] 182#182: 512 worker_connections are not enough, reusing connections
+2023/05/11 18:35:53 [alert] 181#181: 512 worker_connections are not enough
+2023/05/11 18:35:53 [error] 181#181: *976 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "192.168.10.112", referrer: "http://192.168.10.112/"
+2023/05/11 18:36:06 [error] 225#225: *978 open() "/var/www/html/admin" failed (2: No such file or directory), client: 192.168.10.121, server: localhost-nginx-proxy-manager, request: "GET /admin HTTP/1.1", host: "192.168.10.112"
+2023/05/11 18:52:26 [alert] 182#182: *4 open socket #9 left in connection 4
+2023/05/11 18:52:26 [alert] 182#182: *1 open socket #21 left in connection 8
+2023/05/11 18:52:26 [alert] 182#182: aborting
