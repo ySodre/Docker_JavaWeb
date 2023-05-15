@@ -25,9 +25,11 @@ O objetivo desse projeto era subir uma aplicação web java, utilizando o tomcat
 
 ### Após subir os containers com o docker compose: Tomcat, Mysql e Nginx foi possível acessar a aplicação via página web utilizando o endereço configurado no proxy nginx e em seguida fazer login com sucesso.
 
-![image](https://github.com/ySodre/Docker_JavaWeb/assets/89286829/558564c5-6e28-45c2-9619-b36de9815d5d)
-
-![image](https://github.com/ySodre/Docker_JavaWeb/assets/89286829/12e55fa2-911f-4597-8972-02d91ee25f64)
-
 ![image](https://github.com/ySodre/Docker_JavaWeb/assets/89286829/5d643a13-e11d-444f-a798-a21f78f18e90)
+
+![image](https://github.com/ySodre/Docker_JavaWeb/assets/89286829/ff702ac2-c714-42e2-8cde-93ff37a7fc38)
+
+![image](https://github.com/ySodre/Docker_JavaWeb/assets/89286829/d5d6680f-885d-4651-be71-030c237c2914)
+
+
 
