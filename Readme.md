@@ -1,3 +1,5 @@
+![image](https://github.com/ySodre/Docker_JavaWeb/assets/89286829/8eb9e20d-27e2-4071-8460-4c76b34aecc4)
+
 # Projeto - Java Simple Application
 Disponível em: https://devopsrealtime.com/deploy-simple-java-application-using-docker-compose/
 
